@@ -16,7 +16,7 @@ JPPM will help you to build and run jphp applications.
 
 That's all! Try to check jppm in console.
 
-```
+```bash
 jppm version
 ```
 
@@ -25,12 +25,12 @@ jppm version
 - Open repo directory in your console and run:
 
 On Linux (it will create link of jppm to `/usr/bin/jppm`, use `sudo` if needed):
-```
+```bash
 sudo ./gradlew packager:install --no-daemon
 ```
 
 On Windows:
-```
+```bash
 gradlew packager:install --no-daemon
 ```
 
@@ -40,7 +40,7 @@ gradlew packager:install --no-daemon
 
 After all of this the `jppm` command will available in your console. Try to get version of jppm:
 
-```
+```bash
 jppm version
 ```
 
@@ -50,13 +50,13 @@ It should print a version information about jphp.
 
 Run and select options:
 
-```
+```bash
 jppm init
 ```
 
 - If you choose `add AppPlugin (yes)` so you can run the created package as jphp application, use `app:run`:
 
-```
+```bash
 jppm app:run
 ```
 
