@@ -6,5 +6,9 @@
   {
     "name" : "JPPM",
     "page" : "jppm"
+  },
+  {
+    "name" : "Resources and protocol res://",
+    "page" : "res"
   }
 ]
