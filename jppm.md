@@ -67,13 +67,13 @@ It will println `Hello World` in your console. The php source of the package see
 
 > If you didn't choose the `add AppPlugin` option as `no`, use this manual.
 
-- Before, add `AppPlugin` to your `package.php.yml` (see `plugins` sections), e.g.:
+- Before, add plugin `App` to your `package.php.yml` (see `plugins` sections), e.g.:
 
 ```yaml
 name: test
 
 plugins: 
-  - AppPlugin # include app plugin
+  - App # include app plugin
   
 # ...  
 ```
