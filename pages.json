@@ -2,5 +2,9 @@
   {
     "name" : "Оverview",
     "page" : "overview"
+  },
+  {
+    "name" : "JPPM",
+    "page" : "jppm"
   }
 ]
