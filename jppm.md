@@ -1,7 +1,7 @@
 ## JPPM
 > **JPHP Package Manager**
 
-JPPM is a packager manager for jphp like `npm` (js) or `composer` (php). 
+JPPM is a packager manager for jphp like ``npm`` (js) or ``composer`` (php). 
 JPPM will help you to build and run jphp applications.
 
 > **IMPORTANT**: JPPM and JPHP requires Java 8 or 9+. Download here: https://java.com/download/.
@@ -65,9 +65,9 @@ It will println `Hello World` in your console. The php source of the package see
 
 ### 3. How to run and build JPHP apps?
 
-> If you didn't choose the `add AppPlugin` option as `no`, use this manual.
+> If you didn't choose the ``add AppPlugin`` option as ``no``, use this manual.
 
-- Before, add plugin `App` to your `package.php.yml` (see `plugins` sections), e.g.:
+- Before, add plugin ``App`` to your ``package.php.yml`` (see ``plugins`` sections), e.g.:
 
 ```yaml
 name: test
@@ -78,14 +78,14 @@ plugins:
 # ...  
 ```
 
-- Now, the command `app:run`, `app:build`, `app:clean` will be availble.
+- Now, the command ``app:run``, ``app:build``, ``app:clean`` will be availble.
 - Add jphp compiler dependency to your `package.php.yml`:
 
 ```yaml
 name: test
 
 plugins: 
-  - AppPlugin # include app plugin
+  - App # include app plugin
   
 deps:
   jphp-core: '*'
@@ -93,10 +93,10 @@ deps:
   jphp-httpserver-ext: '*' # add http server extension  
 ```
 
-- Add a bootstrap script to your app, e.g `src/index.php`: 
+- Add a bootstrap script to your app, e.g ``src/index.php``: 
 
 ```php
-<?php echo "Hello World";
+<? echo "Hello World";
 ```
 
 - Add the path of the bootstrap script in package.php.yml:
@@ -119,5 +119,5 @@ app:
   bootstrap: 'index.php'
 ```
 
-- Now, you can run `jppm app:run` to run you app.
-- And you can run `jppm app:build` to build your app to one executable jar file!
+- Now, you can run ``jppm app:run`` to run you app.
+- And you can run ``jppm app:build`` to build your app to one executable jar file!
