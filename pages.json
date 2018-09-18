@@ -10,9 +10,5 @@
   {
     "name" : "Resources and protocol res://",
     "page" : "res"
-  },
-  {
-    "name" : "File System class",
-    "page" : "fs"
   }
 ]
